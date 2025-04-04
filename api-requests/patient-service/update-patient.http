@@ -1,5 +1,14 @@
-### GET request to example server
-GET https://examples.http-client.intellij.net/get
-    ?generated-in=IntelliJ IDEA
+## Request to update patient
+
+PUT http://localhost:4000/patients/123e4567-e89b-12d3-a456-426614174000
+Content-Type: application/json
+
+{
+  "name": "Batman",
+  "email": "batman@gmail.co.in",
+  "address": "Gotham city(Budruk)",
+  "dateOfBirth": "1995-06-05",
+  "registeredDate": "2025-03-01"
+}
 
 ###
